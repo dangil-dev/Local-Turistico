@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%;
+  color: #573A37;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 800px;
+  padding: 24px;
+  background-color: #F0E8C2;
+  border-radius: 24px;
+  margin: 48px auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 16px;
+  width: 100%;
+  height: auto;
+  margin: 12px 0;
+}
+
+main {
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+.headline {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8C6A56;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-style: italic;
+  margin: 16px 0;
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;  
+  color: #291B1A;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #291B1A;
+  margin: 16px 0;
+}
+
+h3 {
+  color: #8C6A56;
+  margin: 8px 0;
+}
+
+ul {
+  padding-left: 24px;
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+li {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.accent-blue {
+  background-color: #D4E6F1;
+  color: #2C3E50;
+}
+
+.accent-purple {
+  background-color: #E8D4F1;
+  color: #4A235A;
+}
+
+.accent-pink {
+  background-color: #F1D4E8;
+  color: #7D3C98;
+}
+
+.accent-orange {
+  background-color: #F1E0D4;
+  color: #E67E22;
+}
+
+.divider {
+  height: 1px;
+  background-color: #D4B483;
+  margin: 24px 0;
+}
+
+footer {
+  color: #F0E8C2;
+  text-align: center;
+  padding: 24px 0 48px;
+  font-size: 14px;
+}
+
+footer img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: 0 4px;
+}
